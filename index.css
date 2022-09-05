@@ -1,0 +1,63 @@
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#inputFields {
+    display: flex;
+}
+
+.input-field {
+    margin-right: 10px;
+    
+}
+
+#hoursHand, #minutesHand, #secondsHand{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hoursHand{
+    width: 1.8%;
+    height: 23%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minutesHand{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#secondsHand{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
+
+button {
+    margin-left: 15px;
+
+}
+
+#mocha-stats {
+    position:relative !important
+}
